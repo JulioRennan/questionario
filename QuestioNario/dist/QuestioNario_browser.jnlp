@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0" xmlns:jfx="http://javafx.com" href="QuestioNario_browser.jnlp">
+  <information>
+    <title>QuestioNario</title>
+    <vendor>Julio Rennan</vendor>
+    <description>null</description>
+    <offline-allowed/>
+  </information>
+  <resources>
+    <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
+    <jar href="QuestioNario.jar" size="1660705" download="eager" />
+    <jar href="lib\mysql-connector-java-5.1.48.jar" size="1006956" download="eager" />
+  </resources>
+  <applet-desc  width="800" height="600" main-class="questionario.Janela"  name="QuestioNario" >
+  </applet-desc>
+  <update check="always"/>
+</jnlp>
